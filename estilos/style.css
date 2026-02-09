@@ -16,7 +16,7 @@ bege:#F2E3D5
 }
 
 body, html {
-    background-color: #F2E3D5;
+    background-color: #3CA6A6;
     width: 100vw;
     height: 100vh;
 }
@@ -33,7 +33,30 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: aliceblue;
+    border-radius: 20px;
     width: 250px;
     height: 500px;
+    overflow: hidden;
+    display: block;
+}
+
+div#form {
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+div#form h1 {
+    padding-bottom: 10px;
+
+}
+
+div#picture {
+    background: url(../imagens/pexels-pixasquare-1123982.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 200px;
+    display: block;
+
 }
 
