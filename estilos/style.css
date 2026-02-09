@@ -116,6 +116,8 @@ form div.campo {
     border-radius: 10px;
     width: 85%;
     height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 form div.campo > input {
@@ -125,6 +127,7 @@ form div.campo > input {
     border: none;
     color: white;
     background-color: transparent;
+    
 
 }
 
@@ -134,11 +137,16 @@ form div.campo > input::placeholder {
 
 span.material-symbols-outlined {
     color: #ffffff;
-    display: inline-block;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 7px;
 }
 
 span#mail {
     color: #012E40;
+    display: inline;
+    margin: 1px;
 }
 
 span#mail:hover {
