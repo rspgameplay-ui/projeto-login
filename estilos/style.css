@@ -38,6 +38,8 @@ section#login {
     height: 500px;
     overflow: hidden;
     display: block;
+
+    transition:  width 0.3s,  heigth 0.3s;
 }
 
 div#form {
