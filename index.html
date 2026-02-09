@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pjlogin</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/Queries.css">
 </head>
+
 <body>
 
     <main>
@@ -22,14 +26,33 @@
                 <h1>Login</h1>
                 <p>Seja Bem vindo(a), Faça seu login aqui!</p>
 
-                <form action="formulario.php" method="post" ></form>
+                <form action="formulario.php" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="text" name="name" id="iname" placeholder=" Seu nome:" required minlength="5">
+                        <label for="iname">Nome:</label>
+                    </div>
+                </form>
 
+                <form action="formulario.php" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">password</span>
+                        <input type="password" name="senha" id="isenha" placeholder=" Sua Senha:" required minlength="5">
+                        <label for="isenha">Senha:</label>
+                    </div>
+
+                    <div class="botoes">
+                        <input class="botao" type="submit" value="Enviar">
+                        <a class="esqueci" href="esqueci.html">Esqueci a Senha <span id="mail" class="material-symbols-outlined">mail</span> </a>
+                    </div>
+                </form>
 
             </div>
 
         </section>
 
     </main>
-    
+
 </body>
+
 </html>
